@@ -1,0 +1,31 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>ApacheAI - Intelligent Aviation Weather Briefings</title>
+    <meta name="description" content="ApacheAI - Intelligent Aviation Weather Briefings" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Arial:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY=" crossorigin=""/>
+    <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js" integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo=" crossorigin=""></script>
+    <link id="favicon" rel="icon" type="image/svg+xml" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Ccircle cx='16' cy='16' r='16' fill='%23000000'/%3E%3Cpath d='M8 18c4-6 12-6 16 0' stroke='%2300ff85' stroke-width='2' fill='none'/%3E%3Ccircle cx='16' cy='14' r='3' fill='%2300ff85'/%3E%3C/svg%3E" />
+  </head>
+  <body class="bg-black text-white min-h-screen overflow-x-hidden">
+    <div id="rain-overlay"></div>
+    <div id="global-loader" aria-hidden="true">
+      <div class="loader-spinner"></div>
+    </div>
+  
+    <div id="app" class="relative z-10">
+      <!-- Green title -->
+      <h1 class="apache-title">ApacheAI – Intelligent Aviation Weather Briefings</h1>
+    </div>
+  
+    <script type="module" src="app.js"></script>
+  </body>
+  </html>
+
